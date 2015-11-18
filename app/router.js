@@ -13,6 +13,7 @@ Router.map(function() {
     this.route('inbox');
     this.route('starred');
     this.route('archived');
+    this.route('labels')
   });
 });
 

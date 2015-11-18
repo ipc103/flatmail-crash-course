@@ -6,5 +6,5 @@ export default DS.Model.extend({
   body: DS.attr('string'),
   starred: DS.attr('boolean'),
   archived: DS.attr('boolean'),
-  // label: DS.belongsTo('label')
+  label: DS.belongsTo('label')
 });
